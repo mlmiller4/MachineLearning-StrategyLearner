@@ -1,9 +1,3 @@
-"""
-Student Name: Matthew L. Miller
-GT User ID: mmiller319
-GT ID: 903056227
-"""
-
 import datetime as dt
 import pandas as pd
 import util as ut
@@ -270,21 +264,9 @@ class StrategyLearner(object):
         return results
 
 
-    def author(self):
-        return 'mmiller319'
-
-
 if __name__ == "__main__":
         sl = StrategyLearner()
         sl.addEvidence()
         sl.testPolicy()
-        print "One does not simply think up a strategy"
-
-
-
-
-
-
-
-
+        print ""
 
