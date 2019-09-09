@@ -1,9 +1,3 @@
-"""
-Student Name: Matthew L. Miller
-GT User ID: mmiller319
-GT ID: 903056227
-"""
-
 import pandas as pd
 import datetime as dt
 from util import get_data
@@ -258,7 +252,3 @@ def test_code():
 
 if __name__ == "__main__":
     test_code()
-
-
-def author():
-    return 'mmiller319'
