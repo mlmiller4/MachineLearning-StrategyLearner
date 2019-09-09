@@ -1,9 +1,3 @@
-"""
-Student Name: Matthew L. Miller
-GT User ID: mmiller319
-GT ID: 903056227
-"""
-
 import numpy as np
 
 class BagLearner(object):
@@ -63,4 +57,4 @@ class BagLearner(object):
 
 
 if __name__ == "__main__":
-    print "the secret clue is 'zzyzx'"
+    print ""
