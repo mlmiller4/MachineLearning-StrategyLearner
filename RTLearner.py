@@ -1,9 +1,3 @@
-"""
-Student Name: Matthew L. Miller
-GT User ID: mmiller319
-GT ID: 903056227
-"""
-
 import numpy as np
 import random as rd
 import pandas as pd
@@ -76,7 +70,6 @@ class RTLearner(object):
             return fullTree
 
 
-
     def query(self, points):
 
         results = []    # Hold results
@@ -105,7 +98,5 @@ class RTLearner(object):
         return results
 
 
-
-
 if __name__ == "__main__":
-    print "the secret clue is 'zzyzx'"
+    print ""
