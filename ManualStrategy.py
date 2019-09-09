@@ -1,10 +1,3 @@
-"""
-Student Name: Matthew L. Miller
-GT User ID: mmiller319
-GT ID: 903056227
-"""
-
-
 import pandas as pd
 import numpy as np
 import datetime as dt
@@ -262,23 +255,7 @@ def test_code():
     plt.close(fig)
 
 
-
-
-
-
-
-    """ Get stats for SPY"""
-    # symbol='SPY'
-    # start_date = dt.datetime(2008, 1, 1)
-    # end_date = dt.datetime(2009, 12, 31)
-    # results = testPolicy(symbol, start_date, end_date, sv)
-    #
-    # SPYportvals = compute_portvals(results, sv, 0, 0)
-
-
 if __name__ == "__main__":
     test_code()
 
 
-def author():
-    return 'mmiller319'
